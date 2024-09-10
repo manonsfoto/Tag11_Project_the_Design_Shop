@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "karla-bold";
+  src: url(../fonts/Karla-Bold.ttf);
+}
+@font-face {
+  font-family: "karla-regular";
+  src: url(../fonts/Karla-Regular.ttf);
+}
+@font-face {
+  font-family: "karla-ialic";
+  src: url(../fonts/Karla-Italic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "karla-regular", "Courier New", Courier, monospace;
+}
+body {
+  width: 1440px;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+header {
+  text-transform: uppercase;
+  font-family: "karla-bold";
+  justify-content: space-between;
+  height: 6rem;
+  /* position: fixed; */
+}
+h1 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 0.6rem;
+}
+.header-right {
+  justify-content: space-between;
+  width: 30%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 39% 33% 33%;
+  gap: 1rem;
+}
+.big-box {
+  grid-column: 1/4;
+}
+.big-box,
+.box {
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 150%;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-size: 0.9rem;
+}
+.text-gray {
+  color: #848484;
+}
+.price {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+}
