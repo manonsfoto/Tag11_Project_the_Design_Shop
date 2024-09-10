@@ -33,13 +33,15 @@ header {
   font-family: "karla-bold";
   justify-content: space-between;
   height: 6rem;
-  /* position: fixed; */
+  background-color: #fff;
+  position: sticky;
+  top: 0;
 }
 h1 {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 p {
-  font-size: 0.6rem;
+  font-size: 1.1rem;
 }
 .header-right {
   justify-content: space-between;
@@ -64,13 +66,14 @@ p {
 .box {
   flex-direction: column;
   align-items: flex-start;
-  line-height: 150%;
+  line-height: 200%;
 }
 img {
   width: 100%;
 }
 h2 {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 .text-gray {
   color: #848484;
@@ -88,13 +91,15 @@ h2 {
 }
 a {
   text-decoration: none;
+  color: #323a45;
 }
 h3 {
   font-weight: bold;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
 }
-h4 {
-  font-size: 0.75rem;
+h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 footer {
   margin-top: 9rem;
@@ -107,7 +112,7 @@ footer {
     "i f g h";
 }
 footer div {
-  padding-right: 2rem;
+  padding-right: 3rem;
 }
 .footer-box-a {
   grid-area: a;
@@ -135,4 +140,18 @@ footer div {
 }
 .footer-box-i {
   grid-area: i;
+  padding-top: 1rem;
+}
+footer a {
+  color: #323a45;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+img:hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
