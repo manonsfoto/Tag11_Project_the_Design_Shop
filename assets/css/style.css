@@ -51,6 +51,12 @@ p {
   grid-template-rows: 39% 33% 33%;
   gap: 1rem;
 }
+.section5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 57% 33%;
+  gap: 1rem;
+}
 .big-box {
   grid-column: 1/4;
 }
@@ -73,4 +79,60 @@ h2 {
   justify-content: space-between;
   width: 100%;
   margin-top: 1rem;
+}
+.section2,
+.section3,
+.section4,
+.section5 {
+  margin-top: 12rem;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+h4 {
+  font-size: 0.75rem;
+}
+footer {
+  margin-top: 9rem;
+  display: grid;
+  grid-template-columns: 32% 16% 32% 16%;
+  grid-template-rows: 90% 100% 50%;
+  grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "i f g h";
+}
+footer div {
+  padding-right: 2rem;
+}
+.footer-box-a {
+  grid-area: a;
+}
+.footer-box-b {
+  grid-area: b;
+}
+.footer-box-c {
+  grid-area: c;
+}
+.footer-box-d {
+  grid-area: d;
+}
+.footer-box-e {
+  grid-area: e;
+}
+.footer-box-f {
+  grid-area: f;
+}
+.footer-box-g {
+  grid-area: g;
+}
+.footer-box-h {
+  grid-area: h;
+}
+.footer-box-i {
+  grid-area: i;
 }
