@@ -155,7 +155,7 @@ img:hover {
   opacity: 0.6;
   transition: 0.3s;
 }
-@media only screen and (max-width: 1439px) {
+@media only screen and (max-width: 1440px) {
   body {
     width: 100%;
   }
